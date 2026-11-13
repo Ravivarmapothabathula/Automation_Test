@@ -1,0 +1,28 @@
+{
+  "name": "automation_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "playwright": "^1.65.0",
+    "playwright-core": "^1.65.0",
+    "undici-types": "^8.9.0"
+  }
+}
